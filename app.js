@@ -26,7 +26,7 @@ console.log("getau: "+ org.getAuthUri());
 var app = express();
 // Require Routes js
 var routesHome = require('./routes/home');
-var routesMovistarColombiaAtencion = require('./routes/MovistarColombiaAtencion');
+var routesMovistarColombiaAtencion = require('./routes/movistarcolombiaatencion');
 
 // Serve static files
 app.use(express.static(__dirname + '/public'));
