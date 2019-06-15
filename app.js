@@ -32,7 +32,7 @@ var routesMovistarColombiaAtencion = require('./routes/movistarcolombiaatencion'
 app.use(express.static(__dirname + '/public'));
 
 app.use('/home', routesHome);
-app.use('/MovistarColombiaAtencion', routesMovistarColombiaAtencion);
+app.use('/movistarcolombiaatencion', routesMovistarColombiaAtencion);
 
 app.set('view engine', 'ejs');
 
