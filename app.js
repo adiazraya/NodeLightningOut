@@ -14,7 +14,6 @@ var oauth;
 org.authenticate({ username: 'erinbrown@gmail.com', password: 'publicpass1234'}, function(err, resp){
   // store the oauth object for this user
   if(!err) oauth = resp;
-  console.log('Cached Token: ' + org.oauth.access_token)
 });
 
 var app = express();
