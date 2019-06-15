@@ -11,7 +11,7 @@ var org = nforce.createConnection({
   mode: 'multi' // optional, 'single' or 'multi' user mode, multi default
 });
 var oauth;
-org.authenticate({ username: 'erinbrown@gmail.com', password: 'publicpass1234'}, function(err, resp){
+org.authenticate({ username: 'erinbrown@telcoidospring19.demo', password: 'publicpass1234'}, function(err, resp){
   // store the oauth object for this user
   if(!err) oauth = resp;
 });
